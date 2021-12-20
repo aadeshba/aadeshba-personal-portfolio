@@ -7,6 +7,7 @@ This was a homework assignment assigned in my data structures class. It is writt
 - Sometimes, companies also split up again. When we call split, we will again give you a representative student. Then, you find the biggest company that the student is in—let’s call it A. As a result of the split, A should be completely removed, and the two companies that were at some point in the past merged to become A will now be individual companies without a parent again. If the student is only in their own 1-person company, split does nothing.
 - For the assignment, I built a data structure that allows the easy processing of sequences of merges and splits, and answers queries about whether student A and B are in the same company.
 - To illustrate this, consider the following example with 5 students. After each command, we are showing you the structure of the nested companies with braces. The notation { {1}, { {2}, {3} } } means that we have a company with two subcompanies: the first subcompany is just student 1, while the second subcompany again has two subcompanies, one consisting of just student 2, the other consisting of just student 3. <br />
+<br />
 
 merge (0,1)   => { {0}, {1} }, {2}, {3}, {4} <br />
 merge (2,3)   => { {0}, {1} }, { {2}, {3} }, {4} <br />
