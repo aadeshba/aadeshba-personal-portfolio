@@ -16,5 +16,6 @@ split (2)     => { {0}, {1} }, {2}, {3}, {4}
 merge (2,4)   => { {0}, {1} }, { {2}, {4} }, {3}
 split (0)     => {0}, {1}, { {2}, {4} }, {3}
 
+
 <h2>Permutations of String (Recursion)</h2>
 - This simple program takes an input string and outputs all permutations of its letters. For example, if the input is USC, then the output (in any order) would be USC, UCS, SUC, SCU, CUS, CSU.
