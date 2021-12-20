@@ -43,8 +43,6 @@ private:
     int parent(int i);
     int firstChild(int i);
     void swapInVector(int r, int s);
-    // whatever you need to naturally store things.
-    // You may also add helper functions here.
 };
 
 
@@ -52,11 +50,11 @@ template <class T>
 MinHeap<T>::MinHeap(int d) {  
     this->d = d;
     size = 0;
-    id = 0;//first push will have an id of 0
+    id = 0;//first node will have an id of 0
 }
 
 template <class T>
-MinHeap<T>::~MinHeap() {
+MinHeap<T>::~MinHeap() {//destructor (empty)
 
 }
 
