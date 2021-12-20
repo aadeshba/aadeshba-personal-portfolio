@@ -8,8 +8,7 @@ This was a homework assignment assigned in my data structures class. It is writt
 - For the assignment, I built a data structure that allows the easy processing of sequences of merges and splits, and answers queries about whether student A and B are in the same company.
 - To illustrate this, consider the following example with 5 students. After each command, we are showing you the structure of the nested companies with braces. The notation { {1}, { {2}, {3} } } means that we have a company with two subcompanies: the first subcompany is just student 1, while the second subcompany again has two subcompanies, one consisting of just student 2, the other consisting of just student 3. <br />
 <br />
-```
-merge (0,1)   => { {0}, {1} }, {2}, {3}, {4} <br />
+```merge (0,1)   => { {0}, {1} }, {2}, {3}, {4} <br />
 merge (2,3)   => { {0}, {1} }, { {2}, {3} }, {4} <br />
 merge (0,3)   => { { {0}, {1} }, { {2}, {3} } }, {4} <br />
 split (2)     => { {0}, {1} }, { {2},{3} }, {4} <br />
