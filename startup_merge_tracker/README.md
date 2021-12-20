@@ -1,6 +1,6 @@
 This was a homework assignment assigned in my data structures class. It is written in C++ using a custom virtual machine in Docker that was made for the class. I used Visual Studio when writing my code.
 
-<h2>Startup Merging Tracker</h2>
+## Startup Merging Tracker
 - The code written for this portion of the assignment can be found in the 'company' directory under the company.cpp and company.hpp files.
 - Startups these days are merging so fast, it’s hard to keep track of who is in what company. Company A merges with Company B, and Company C merges with Company D, and then the two merged companies merge, and suddenly, employees from companies A and C find themselves being colleagues. As this gets sufficiently more difficult to follow, the assignment was to write a class that can be a tracker of these mergin startups.
 - Here is how this works: Initially, each starts a startup company by himself/herself. Then, companies may merge. When you have a merge command, you will be given the numbers of two representative students, one from each company. Then, for each of those two students, you find the “biggest” company they are in, i.e., companies that are not subcompanies of any bigger company; let’s call them A and B. Those two companies A and B are then merged into a new company; let’s call it C. C will become the parent company of A and B.
