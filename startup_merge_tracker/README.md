@@ -17,5 +17,5 @@ This was a homework assignment assigned in my data structures class. It is writt
 `split (0)     => {0}, {1}, { {2}, {4} }, {3}` <br />
 
 
-<h2>Permutations of String (Recursion)</h2>
+## Permutations of String (Recursion)
 - This simple program takes an input string and outputs all permutations of its letters. For example, if the input is USC, then the output (in any order) would be USC, UCS, SUC, SCU, CUS, CSU.
