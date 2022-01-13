@@ -1,10 +1,4 @@
 Written in C++ in Visual Studio.
-## Backtracking Program
-This program solves a version of the subset sum problem.
-* Some classes are a lot of work, and at the end, you have very little actual knowledge to show for. Others are the other way around. Some are neither work nor useful, and in some you work really hard and hopefully learn a lot. This program figures out which combination of classes causes you to learn the most, without exceeding your workload capacity.
-* This program takes just one command line parameter, the name of the input file. The input file will have two numbers on the first line: n is the total number of classes from which you can choose, and the second number W is a double, capturing the total amount of work you can do for the semester. Next come n lines, each describing a class. The class i is described by first the class name s(i) (a string that does not contain any white space), followed by one or more whitespaces. Next come two non-negative doubles w(i) and L(i). The first of these is the amount of total work you need to do for class i, and the second is the total amount you learn from class i. Here is an example of what this may look like:
-* The program will output the maximum total amount you can learn from any combination of classes whose total work does not exceed W. In the example above, the correct output would be 10.36, by combining CSCI104 with ENGR102. You cannot combine CSCI104 with any of the other classes (it would exceed your workload capacity), and you don't learn as much if you take CSCI170 with CSCI280; also, CSCI170 and ENGR102 and CSCI280 together exceed your workload capacity.
-* Simply typing make learning will create an executable to run the program called "learning" in this directory.
 ## D-ary Heap
 In order to aid with the next part of my project (solving the word transformation game "doublet" using A* search), I wrote a d-ary heap class which can be found in heap.h. This class can be used to create a MinHeap where each node has the specified number of children d. 
 ## A* Search
