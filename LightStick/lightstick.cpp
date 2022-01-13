@@ -22,8 +22,6 @@
   end of the strips where the Arduino is connected and will be the left side of the input
   BMP image.
 
-  Mick also added a Gamma Table from adafruit code which gives better conversion of 24 bit to
-  21 bit coloring.
 */
 
 // Library initialization
@@ -50,7 +48,7 @@ int b = 0;                                // Variable for the Blue Value
 int r = 0;                                // Variable for the Red Value
 
 // Intial Variable declarations and assignments (Make changes to these if you want to change defaults)
-#define STRIP_LENGTH 288                  // Set the number of LEDs the LED Strip
+#define STRIP_LENGTH 288                  // Set the number of LEDs on the LED Strip
 int frameDelay = 15;                      // default for the frame delay
 int menuItem = 1;                         // Variable for current main menu selection
 int initDelay = 0;                        // Variable for delay between button press and start of light sequence
@@ -115,20 +113,6 @@ void setup() {
   } else {
     brightness = 50;
   }
-
-  /*
-    if (EEPROM.read(addrrepeatTimes) >= 1 && EEPROM.read(addrrepeatTimes) <= 100) {
-      repeatTimes = EEPROM.read(addrrepeatTimes);
-    } else {
-      repeatTimes = 1;
-    }
-
-    if (EEPROM.read(addrrepeatDelay) >= 0 && EEPROM.read(addrrepeatDelay) <= 10000) {
-      repeatDelay = EEPROM.read(addrrepeatDelay);
-    } else {
-      repeatDelay = 0;
-    }
-  */
 
   //Serial.begin(9600);
 
