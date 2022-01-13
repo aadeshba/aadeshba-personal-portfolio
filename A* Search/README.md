@@ -1,6 +1,6 @@
 Written in C++ in Visual Studio.
 ## D-ary Heap
-In order to aid with the next part of my project (solving the word transformation game "doublet" using A* search), I wrote a d-ary heap class which can be found in heap.h. This class can be used to create a MinHeap where each node has the specified number of children d. 
+In order to aid with the next part of my project (solving the word transformation game "doublet" by Lewis Carroll using A* search), I wrote a d-ary heap class which can be found in Minheap.h. This class can be used to create a MinHeap where each node has the specified number of children d (rather than just a binary heap). 
 ## A* Search
 This program compiles with 'make doublet' and creates an executable called 'doublet' which takes starting word, ending word, and then input dictionary file as command line parameters. The input dictionary file is a list of valid words that can be used in the transofrmation.
 ### The problem being solved:
