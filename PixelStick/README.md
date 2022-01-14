@@ -8,7 +8,7 @@
     This code is the culmination of a group effort from me, John Jacob, and Ronak Desai to create our own version of the PixelStick. The PixelStick reads in images     of either BMP or JPEG format and prints them onto the specified number of LEDs on the strip. EEProm features are included to save previous settings, and switch statements are     used to navigate the system in place for the display (including brightness, saved images, etc.). Below are a few images we captured using our own PixelStick (most were captured in 15 second exposures).
   </p>
   
-  <a href="http://www.thepixelstick.com/">PixelStick official website</a> <p> for reference </p>
+  <a href="http://www.thepixelstick.com/">PixelStick official website</a>
   
   <h4>Image of Myself:</h4>
   <a href="https://lh3.googleusercontent.com/T86cc2Ve57QYGWQn6duS1-o1E7Gf_EIS6PWuLrazVuxTvgAipIkAXMrJbsOWCcQ_OjtZg-5PQkgBDDlbxMaqBZ94hA_6jT9Alxa9cXBFok8XebwQY-02fk2LrrrxbRuFf2ZpMjQP_A=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/T86cc2Ve57QYGWQn6duS1-o1E7Gf_EIS6PWuLrazVuxTvgAipIkAXMrJbsOWCcQ_OjtZg-5PQkgBDDlbxMaqBZ94hA_6jT9Alxa9cXBFok8XebwQY-02fk2LrrrxbRuFf2ZpMjQP_A=w600-h315-p-k" /> </a>
